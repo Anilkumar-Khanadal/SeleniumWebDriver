@@ -26,6 +26,7 @@ public class CSSLocator {
 		
 		// tag class attribute -- tag.classname[attribute="value"] - to defferentiat the web elements
 		driver.findElement(By.cssSelector("input.search-box-text[name='q']")).sendKeys("T-shirts");
+        driver.findElement(By.cssSelector("button[type='button'][class='btn btn-primary search-btn rounded']"));
 	}
 
 }
